@@ -1,0 +1,27 @@
+# Terraform state
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Terraform working directory
+.terraform/
+.terraform.lock.hcl
+
+# Terraform variable files
+terraform.tfvars
+*.auto.tfvars
+
+# Local overrides
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Sensitive outputs
+*.pem
+*.key
+
+# Logs & System
+*.log
+.DS_Store
